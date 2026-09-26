@@ -1,0 +1,4 @@
+User ID,First name,Last name,Organization,Email,Membership enabled,Membership level,Membership status,Member since,Renewal due,Archived,Subscribed to emails,Opt-in status,Member bundle ID or email,Notes
+101,Hana,Roberts,Harbour Trust,hana@example.org,Yes,Professional,Active,2025-03-01,2027-03-01,No,Yes,Opted in,,"Board volunteer, north region"
+102,Wiremu,Green,Coast Trust,wiremu@example.org,Yes,Associate,Pending - Renewal,2024-02-20,2026-02-20,No,No,Not opted in,101,"Two lines
+in a note"

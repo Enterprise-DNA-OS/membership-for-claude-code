@@ -6,17 +6,21 @@
   "license": "MIT",
   "author": "Enterprise DNA (https://www.enterprisedna.co)",
   "repository": "github:Enterprise-DNA-OS/membership-for-claude-code",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "migrate": "node scripts/migrate.mjs",
     "seed": "node scripts/seed.mjs",
-    "demo": "node scripts/migrate.mjs && node scripts/seed.mjs",
+    "demo": "node scripts/migrate.mjs && node scripts/seed.mjs && node scripts/membership.mjs attention && node scripts/membership.mjs renewals-due && node scripts/membership.mjs events",
     "view": "node scripts/view.mjs",
     "docs": "node scripts/docs.mjs",
-    "test": "node scripts/smoke.mjs"
+    "test": "node scripts/smoke.mjs",
+    "membership": "node scripts/membership.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",
-    "pg": "^8.23.0"
+    "pg": "^8.23.0",
+    "csv-parse": "^7.0.3"
   }
 }
